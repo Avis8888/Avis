@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <!-- 背景圆环：航空航天蓝 -->
+  <circle cx="128" cy="128" r="120" fill="#0f172a" />
+  <circle cx="128" cy="128" r="110" fill="none" stroke="#1a56db" stroke-width="3" opacity="0.4" />
+  <circle cx="128" cy="128" r="90" fill="none" stroke="#2563eb" stroke-width="2" opacity="0.6" />
+
+  <!-- 阀门主体图形：抽象的阀门/轨道组合 -->
+  <!-- 中心圆 -->
+  <circle cx="128" cy="128" r="32" fill="#1a56db" opacity="0.9" />
+
+  <!-- 十字管道 -->
+  <rect x="48" y="118" width="160" height="20" rx="10" fill="#3b82f6" opacity="0.7" />
+  <rect x="118" y="48" width="20" height="160" rx="10" fill="#3b82f6" opacity="0.7" />
+
+  <!-- 轨道弧线 -->
+  <path d="M128 40 A88 88 0 0 1 216 128" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="8 4" />
+  <path d="M128 216 A88 88 0 0 1 40 128" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="8 4" />
+
+  <!-- 中心点 -->
+  <circle cx="128" cy="128" r="10" fill="#f8fafc" />
+
+  <!-- 文字 A -->
+  <text x="128" y="135" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#1a56db" letter-spacing="2">A</text>
+
+  <!-- 底部文字 -->
+  <text x="128" y="248" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12" font-weight="600" fill="#64748b" letter-spacing="6">AVIS</text>
+</svg>
